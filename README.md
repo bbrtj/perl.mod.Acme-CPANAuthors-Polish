@@ -6,20 +6,20 @@ Acme::CPANAuthors::Polish - jesteśmy autorami-Polakami modułów na CPAN
 
 # VERSION
 
-version 0.03
+version 0.04
 
 # SYNOPSIS
 
-	use Acme::CPANAuthors->new('Polish');
-	
-	my $number = $authors->count;
-	my @ids = $authors->id;
-	my @distros = $authors->distributions("ZBY");
-	my $url = $authors->avatar_url("PWES");
-	my $kwalitee = $authors->kwalitee("TADZIK");
-	my $name = $authors->name("PMURIAS");
+        use Acme::CPANAuthors->new('Polish');
 
-See documentation for [Acme::CPANAuthors](https://metacpan.org/pod/Acme::CPANAuthors) for more details.
+        my $number = $authors->count;
+        my @ids = $authors->id;
+        my @distros = $authors->distributions("ZBY");
+        my $url = $authors->avatar_url("PWES");
+        my $kwalitee = $authors->kwalitee("TADZIK");
+        my $name = $authors->name("PMURIAS");
+
+See documentation for [Acme::CPANAuthors](https://metacpan.org/pod/Acme%3A%3ACPANAuthors) for more details.
 
 # DESCRIPTION
 
@@ -36,13 +36,13 @@ we will remove your name.
 
 # SEE ALSO
 
-[Acme::CPANAuthors](https://metacpan.org/pod/Acme::CPANAuthors) - Main class to manipulate the authors, also in this module
+[Acme::CPANAuthors](https://metacpan.org/pod/Acme%3A%3ACPANAuthors) - Main class to manipulate the authors, also in this module
 
 Module code inspired by:
 
-[Acme::CPANAuthors::British](https://metacpan.org/pod/Acme::CPANAuthors::British)
+[Acme::CPANAuthors::British](https://metacpan.org/pod/Acme%3A%3ACPANAuthors%3A%3ABritish)
 
-[Acme::CPANAuthors::Russian](https://metacpan.org/pod/Acme::CPANAuthors::Russian)
+[Acme::CPANAuthors::Russian](https://metacpan.org/pod/Acme%3A%3ACPANAuthors%3A%3ARussian)
 
 # AUTHOR
 

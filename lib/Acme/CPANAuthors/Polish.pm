@@ -4,7 +4,7 @@ use utf8;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Acme::CPANAuthors::Register (
     ADAMOWSKI => 'Aleksander Adamowski',
@@ -49,12 +49,12 @@ Acme::CPANAuthors::Polish - jesteśmy autorami-Polakami modułów na CPAN
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
 	use Acme::CPANAuthors->new('Polish');
-	
+
 	my $number = $authors->count;
 	my @ids = $authors->id;
 	my @distros = $authors->distributions("ZBY");
